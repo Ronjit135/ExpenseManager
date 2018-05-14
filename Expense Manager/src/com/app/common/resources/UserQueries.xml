@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUERIES>
+    <SQL ID="getUserByUserNameAndPassword">
+        SELECT * FROM ST_USER WHERE USER_NAME > = {0} AND PASSWORD > = {1}
+    </SQL>
+</QUERIES>
